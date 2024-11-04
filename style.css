@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin: 0px;
+
+} 
+
+h1 header {
+    float: left;
+}
+
+.header-nav {
+    float: right;
+}
+
+h1 {
+    color: azure;
+}
+
+#part-1 {
+    display: inline-block;
+}
+
+#part-2 {
+    display: inline-block;
+}
+
+.about-me {
+    width: 40%;
+    float: left;
+}
+
+#my-portrait {
+    width: 400px;
+    height: auto;
+    align-content: center;
+}
+
+.buttons {
+    width: 30%;
+    height:auto;
+    border: 1px;
+}
