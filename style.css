@@ -46,16 +46,19 @@ main {
 
 .about-me {
     width: 550px;
+    flex-shrink: 1;
 }
 
 #my-portrait {
     width: 340px;
     height: auto;
+    flex-shrink: 4;
 }
 
 .button {
     display: inline-block;
-    padding: 75px 120px;
+    height: 150px;
+    width: 250px;
     color: azure;
     border: none;
     text-decoration: none;
@@ -68,6 +71,7 @@ main {
     background-position: center;
     background-blend-mode: overlay;           /* Blends color with image */
     background-color: rgba(0, 0, 0, 0.5);
+    align-content: center;
 }
 
 #projects-button {
