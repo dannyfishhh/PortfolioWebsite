@@ -6,7 +6,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: cornflowerblue;
-    display: inline-block;
+    display: flex;
     margin: 0px;
 
 } 
@@ -23,12 +23,20 @@ h1 {
     color: azure;
 }
 
+main {
+    display: flex;
+}
+
+.main {
+    flex-direction: column;
+}
+
 #part-1 {
-    display: inline-block;
+    display: flex;
 }
 
 #part-2 {
-    display: inline-block;
+    display: flex;
 }
 
 .about-me {
@@ -43,7 +51,7 @@ h1 {
 }
 
 .buttons {
-    width: 30%;
+    width: 33%;
     height:auto;
     border: 1px;
 }
