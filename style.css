@@ -50,7 +50,7 @@ main {
 }
 
 #my-portrait {
-    width: 340px;
+    max-width: 340px;
     height: auto;
     flex-shrink: 4;
 }
@@ -106,7 +106,22 @@ main {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    #part-1 {
+        flex-wrap: wrap;
+    }
+    
+    #part-2 {
+        flex-wrap: wrap;
+    }
+    .button{
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 10px;
+    }  
 }
